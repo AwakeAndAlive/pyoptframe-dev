@@ -178,5 +178,3 @@ class BRKGA(SingleObjSearch):
     def search(self, timelimit: float) -> SearchOutput:
         lout : SearchOutput = self.engine.run_global_search(self.g_idx, timelimit)
         return lout
-
-
