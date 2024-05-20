@@ -129,6 +129,5 @@ def main():
     print(f"Improvement: {improvement:.2f}%;")
     print(f"Execution time: {duration} microseconds;")
 
-# Executar a função principal
 if __name__ == "__main__":
     main()
