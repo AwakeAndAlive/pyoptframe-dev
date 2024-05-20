@@ -1,7 +1,10 @@
-# OptFrame Python Demo TSP - Traveling Salesman Problem
+# OptFrame Python Demo TSP SA - Traveling Salesman Problem Simulated Annealing
 
 from typing import List
 import random
+import time
+import os
+import sys
 
 from optframe import *
 from optframe.protocols import *
@@ -148,15 +151,22 @@ class BasicInitialSearch(object):
         eval = self.engine.fevaluator_evaluate(self.evaluator, True, sol)
         return sol, eval
 
-# set random seed for system
+if len(sys.argv) != 2:
+    print(f"Usage: {sys.argv[0]} <instance file>")
+    sys.exit(1)
+
+# random seed
 random.seed(0)
 
-# loads problem from filesystem
+# loads instance
+instance_file = sys.argv[1]
 pTSP = ProblemContextTSP()
-pTSP.load('instances/00_firsttest.tsp')
+pTSP.load(instance_file)
 print(pTSP)
 
-# Register Basic Components
+# instance name
+instance_name = os.path.basename(instance_file)
+
 comp_list = pTSP.engine.setup(pTSP)
 print(comp_list)
 
@@ -168,7 +178,7 @@ print("ns_idx=", ns_idx)
 nsseq_idx = pTSP.engine.add_nsseq_class(pTSP, NSSeqSwap)
 print("nsseq_idx=", nsseq_idx)
 
-# test each component
+# testing
 gev_idx = comp_list[0] # GeneralEvaluator
 ev_idx = comp_list[1] # Evaluator
 print("evaluator id:", ev_idx)
@@ -182,11 +192,12 @@ pTSP.engine.print_component(fev)
 fc = pTSP.engine.get_constructive(c_idx)
 pTSP.engine.print_component(fc)
 
-solxx = pTSP.engine.fconstructive_gensolution(fc)
-print("test solution:", solxx)
+# Generate initial solution and its evaluation
+initial_solution = pTSP.engine.fconstructive_gensolution(fc)
+initial_evaluation = pTSP.engine.fevaluator_evaluate(fev, True, initial_solution)
 
-z1 = pTSP.engine.fevaluator_evaluate(fev, True, solxx)
-print("test evaluation:", z1)
+print("Initial solution:", initial_solution)
+print("Initial evaluation:", initial_evaluation)
 
 initial_search = BasicInitialSearch(pTSP.engine, fc, fev)
 print(initial_search)
@@ -201,15 +212,27 @@ max_iterations = 20000
 sa = BasicSimulatedAnnealing(pTSP.engine, gev_idx, IdInitialSearch(0), lns_idx, cooling_rate, max_iterations, initial_temp)
 print(sa)
 
+start_time = time.time()
+
 status = sa.search(30.0)
+
+end_time = time.time()
+execution_time = end_time - start_time
+
 best_solution = status.best_s  # Adjusted here
 best_evaluation = status.best_e
 
-print("Instance name: 00_firsttest.tsp;")
-print(f"SA variables: initialTemp = {initial_temp}; maxIterations = {max_iterations}; coolingRate = {cooling_rate};")
-print("Initial evaluation: ", z1)
-print("Initial solution: ", solxx)
+# Calculate improvement
+initial_cost = initial_evaluation
+final_cost = best_evaluation
+improvement = ((initial_cost - final_cost) / initial_cost) * 100
 
+print(f"Instance name: {instance_name};")
+print(f"SA variables: initialTemp = {initial_temp}; maxIterations = {max_iterations}; coolingRate = {cooling_rate};")
+print(f"Initial evaluation: {initial_cost}")
+print(f"Initial solution: {initial_solution}")
 print("Best solution found by Simulated Annealing: ")
 print(best_solution)
-print("Best evaluation: ", best_evaluation)
+print(f"Best evaluation: {final_cost}")
+print(f"Improvement: {improvement:.2f}%")
+print(f"Execution time: {execution_time} seconds")
