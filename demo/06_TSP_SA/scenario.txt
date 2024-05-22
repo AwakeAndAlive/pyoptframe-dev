@@ -1,0 +1,5 @@
+execDir="."
+targetRunner="target-runner.sh"
+trainInstancesDir="instances"
+trainInstancesFile="instances-list.txt"
+maxExperiments=1000

@@ -1,0 +1,8 @@
+01_berlin52.tsp
+02_kroD100.tsp
+03_pr226.tsp
+04_lin318.tsp
+05_TRP-S500-R1.tsp
+06_d657.tsp
+07_rat784.tsp
+08_TRP-S1000-R1.tsp

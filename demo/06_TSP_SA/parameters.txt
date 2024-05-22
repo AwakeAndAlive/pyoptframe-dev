@@ -1,0 +1,5 @@
+# name          switch              type    values
+initial_temp    "--initial_temp "   r       (50000, 100000)
+alpha           "--alpha "          r       (0.90, 0.99)
+final_temp      "--final_temp "     r       (0.0001, 0.001)
+max_iterations  "--max_iterations " i       (5000, 10000)
