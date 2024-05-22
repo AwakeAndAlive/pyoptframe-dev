@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script path
-EXE="python3 irace-pytsp-sa.py"
+EXE="python3 irace-mainTSP-fcore-sa.py"
 
 # Parameters
 instance=$4

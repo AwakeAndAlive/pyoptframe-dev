@@ -9,10 +9,7 @@ class TSPSolution:
         self.path = path
         self.cost = cost
 
-    def __str__(self):
-        return f"TSPSolution(path={self.path}, cost={self.cost})"
-
-# Euclidean distance function
+# Euclidean distance
 def euclidean_distance(a, b):
     return math.sqrt((a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2)
 
@@ -52,9 +49,6 @@ def simulated_annealing_tsp(coordinates, initial_temp, final_temp, max_iteration
     
     best_solution = current_solution
     best_cost = current_cost
-
-    print(f"Initial solution: {current_solution}")
-    print(f"Initial cost: {current_cost}")
     
     temp = initial_temp
     
@@ -63,7 +57,7 @@ def simulated_annealing_tsp(coordinates, initial_temp, final_temp, max_iteration
     if cooling_steps == 0:
         cooling_steps = 1
     
-    for step in range(cooling_steps):
+    for _ in range(cooling_steps):
         for _ in range(SAmax):
             new_solution = generate_neighbor(current_solution)
             new_cost = calculate_total_cost(coordinates, new_solution)
@@ -77,10 +71,7 @@ def simulated_annealing_tsp(coordinates, initial_temp, final_temp, max_iteration
             if new_cost < best_cost:
                 best_solution = new_solution
                 best_cost = new_cost
-
-        # Print status
-        print(f"Step {step + 1}/{cooling_steps}, Temp: {temp:.2f}, Best Cost: {best_cost:.2f}")
-
+        
         # Apply geometric cooling
         temp = geometric_cooling(temp, alpha)
         
@@ -127,16 +118,8 @@ def main():
     if coordinates is None:
         sys.exit(1)
 
-    start_time = time.time()
-
     best_solution = simulated_annealing_tsp(coordinates, initial_temp, final_temp, max_iterations, alpha, SAmax)
-
-    end_time = time.time()
-    execution_time = end_time - start_time
-
-    print(f"Best solution path: {best_solution.path}")
-    print(f"Best solution cost: {best_solution.cost}")
-    print(f"Execution time: {execution_time} seconds")
+    print(best_solution.cost)
 
 if __name__ == "__main__":
     main()
