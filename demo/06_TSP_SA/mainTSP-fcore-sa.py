@@ -1,13 +1,17 @@
+# OptFrame Python Demo TSP SA - Traveling Salesman Problem Simulated Annealing
+
 from typing import List
 import random
 import time
 import os
 import sys
+
 from optframe import *
 from optframe.protocols import *
-from optframe.components import Move, IdInitialSearch, IdListNS, IdGeneralEvaluator
+from optframe.heuristics import BasicSimulatedAnnealing
+from optframe.components import Move, IdInitialSearch, IdNS, IdNSSeq, IdListNS, IdGeneralEvaluator, IdEvaluator, IdConstructive
 
-class SolutionTSP:
+class SolutionTSP(object):
     def __init__(self):
         self.n: int = 0
         self.cities: List[int] = []
@@ -15,7 +19,7 @@ class SolutionTSP:
     def __str__(self):
         return f"SolutionTSP(n={self.n};cities={self.cities})"
 
-class ProblemContextTSP:
+class ProblemContextTSP(object):
     def __init__(self):
         self.engine = Engine(APILevel.API1d)
         self.n = 0
@@ -41,7 +45,7 @@ class ProblemContextTSP:
         return math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)
 
     def __str__(self):
-        return f"ProblemContextTSP(n={self.n})"
+        return f"ProblemContextTSP(n={self.n};vx={self.vx};vy={self.vy};dist={self.dist})"
 
     @staticmethod
     def minimize(pTSP: 'ProblemContextTSP', s: SolutionTSP) -> float:
@@ -62,13 +66,18 @@ class ProblemContextTSP:
         sol.n = problemCtx.n
         return sol
 
+assert isinstance(SolutionTSP, XSolution)
+assert isinstance(ProblemContextTSP, XProblem)
+assert isinstance(ProblemContextTSP, XConstructive)
+assert isinstance(ProblemContextTSP, XMinimize)
+
 class MoveSwapClass(Move):
     def __init__(self, _i: int = 0, _j: int = 0):
         self.i = _i
         self.j = _j
 
     def __str__(self):
-        return f"MoveSwapClass(i={self.i};j={self.j})"
+        return "MoveSwapClass(i=" + str(self.i) + ";j=" + str(self.j) + ")"
 
     def apply(self, problemCtx, sol: SolutionTSP) -> 'MoveSwapClass':
         aux = sol.cities[self.j]
@@ -82,7 +91,10 @@ class MoveSwapClass(Move):
     def eq(self, problemCtx, m2: 'MoveSwapClass') -> bool:
         return (self.i == m2.i) and (self.j == m2.j)
 
-class NSSwap:
+assert isinstance(MoveSwapClass, XMove)
+assert MoveSwapClass in Move.__subclasses__()
+
+class NSSwap(object):
     @staticmethod
     def randomMove(pTSP, sol: SolutionTSP) -> MoveSwapClass:
         n = sol.n
@@ -117,7 +129,9 @@ class IteratorSwap(NSIterator):
     def current(self, pTSP: ProblemContextTSP):
         return MoveSwapClass(self.i, self.j)
 
-class NSSeqSwap:
+assert IteratorSwap in NSIterator.__subclasses__()
+
+class NSSeqSwap(object):
     @staticmethod
     def randomMove(pTSP: ProblemContextTSP, sol: SolutionTSP) -> MoveSwapClass:
         return NSSwap.randomMove(pTSP, sol)
@@ -126,7 +140,7 @@ class NSSeqSwap:
     def getIterator(pTSP: ProblemContextTSP, sol: SolutionTSP) -> IteratorSwap:
         return IteratorSwap(-1, -1)
 
-class BasicInitialSearch:
+class BasicInitialSearch(object):
     def __init__(self, engine, constructive, evaluator):
         self.engine = engine
         self.constructive = constructive
@@ -137,68 +151,36 @@ class BasicInitialSearch:
         eval = self.engine.fevaluator_evaluate(self.evaluator, True, sol)
         return sol, eval
 
-class BasicSimulatedAnnealing:
-    def __init__(self, _engine: XEngine, _ev: IdGeneralEvaluator, _is: IdInitialSearch, _lns: IdListNS, alpha: float, iter: int, T0: float, Tmin: float):
-        assert isinstance(_engine, XEngine)
-        if isinstance(_ev, int):
-            _ev = IdGeneralEvaluator(_ev)
-        if not isinstance(_ev, IdGeneralEvaluator):
-            print(_ev)
-            assert False
-        if isinstance(_is, int):
-            _is = IdInitialSearch(_is)
-        if not isinstance(_is, IdInitialSearch):
-            print(_is)
-            assert False
-        if not isinstance(_lns, IdListNS):
-            print(_lns)
-            assert False
-        self.engine = _engine
-        self.alpha = alpha
-        self.iter = iter
-        self.T0 = T0
-        self.Tmin = Tmin
-        str_code = "OptFrame:ComponentBuilder:GlobalSearch:SA:BasicSA"
-        str_args = f"OptFrame:GeneralEvaluator:Evaluator {_ev.id} OptFrame:InitialSearch {_is.id} OptFrame:NS[] {_lns.id} {alpha} {iter} {T0}"
-        self.g_idx = self.engine.build_global_search(str_code, str_args)
-
-    def search(self) -> SearchOutput:
-        T = self.T0
-        lout = None
-        while T >= self.Tmin:
-            print(f"Running SA search at temperature {T}...")
-            try:
-                lout = self.engine.run_global_search(self.g_idx, T)
-            except Exception as e:
-                print(f"Exception during run_global_search: {e}")
-                break
-            T *= self.alpha
-        return lout
-
 if len(sys.argv) != 2:
     print(f"Usage: {sys.argv[0]} <instance file>")
     sys.exit(1)
 
+# random seed
 random.seed(0)
 
+# loads instance
 instance_file = sys.argv[1]
 pTSP = ProblemContextTSP()
 pTSP.load(instance_file)
 print(pTSP)
 
+# instance name
 instance_name = os.path.basename(instance_file)
 
 comp_list = pTSP.engine.setup(pTSP)
 print(comp_list)
 
+# get index of new NS
 ns_idx = pTSP.engine.add_ns_class(pTSP, NSSwap)
 print("ns_idx=", ns_idx)
 
+# get index of new NSSeq
 nsseq_idx = pTSP.engine.add_nsseq_class(pTSP, NSSeqSwap)
 print("nsseq_idx=", nsseq_idx)
 
-gev_idx = comp_list[0]
-ev_idx = comp_list[1]
+# testing
+gev_idx = comp_list[0] # GeneralEvaluator
+ev_idx = comp_list[1] # Evaluator
 print("evaluator id:", ev_idx)
 
 c_idx = comp_list[2]
@@ -210,6 +192,7 @@ pTSP.engine.print_component(fev)
 fc = pTSP.engine.get_constructive(c_idx)
 pTSP.engine.print_component(fc)
 
+# Generate initial solution and its evaluation
 initial_solution = pTSP.engine.fconstructive_gensolution(fc)
 initial_evaluation = pTSP.engine.fevaluator_evaluate(fev, True, initial_solution)
 
@@ -224,31 +207,32 @@ print("lns_idx=", lns_idx)
 
 initial_temp = 100000.0
 cooling_rate = 0.98
-max_iterations = 10000
-Tmin = 0.001
+max_iterations = 20000
 
-sa = BasicSimulatedAnnealing(pTSP.engine, gev_idx, IdInitialSearch(0), IdListNS(lns_idx), cooling_rate, max_iterations, initial_temp, Tmin)
+sa = BasicSimulatedAnnealing(pTSP.engine, gev_idx, IdInitialSearch(0), lns_idx, cooling_rate, max_iterations, initial_temp)
 print(sa)
 
 start_time = time.time()
 
-status = sa.search()
+status = sa.search(30.0)
 
 end_time = time.time()
 execution_time = end_time - start_time
 
-best_solution = status.best_s if status else None
-best_evaluation = status.best_e if status else None
+best_solution = status.best_s  # Adjusted here
+best_evaluation = status.best_e
 
+# Calculate improvement
 initial_cost = initial_evaluation
-final_cost = best_evaluation if best_evaluation is not None else initial_cost
-improvement = ((initial_cost - final_cost) / initial_cost) * 100 if initial_cost != 0 else 0
+final_cost = best_evaluation
+improvement = ((initial_cost - final_cost) / initial_cost) * 100
 
 print(f"Instance name: {instance_name};")
 print(f"SA variables: initialTemp = {initial_temp}; maxIterations = {max_iterations}; coolingRate = {cooling_rate};")
 print(f"Initial evaluation: {initial_cost}")
 print(f"Initial solution: {initial_solution}")
-print(f"Best solution: {best_solution}")
+print("Best solution found by Simulated Annealing: ")
+print(best_solution)
 print(f"Best evaluation: {final_cost}")
 print(f"Improvement: {improvement:.2f}%")
 print(f"Execution time: {execution_time} seconds")
