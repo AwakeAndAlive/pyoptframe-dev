@@ -1,21 +1,21 @@
 #!/bin/bash
 
 # Script path
-EXE="python3 irace-mainTSP-fcore-sa.py"
+EXE="python3 irace-mainTSP-fcore-brkga.py"
 
 # Parameters
 instance=$4
-initial_temp=$6
-alpha=$8
-final_temp=${10}
-max_iterations=${12}
-SAmax=10  # Fixed after testing
+population_size=$6
+num_generations=$8
+elite_proportion=${10}
+mutant_proportion=${12}
+elite_inheritance_probability=${14}
 
 # Temporary output
 output_file=$(mktemp)
 
 # Execute the algorithm
-$EXE $instance $initial_temp $alpha $final_temp $max_iterations $SAmax > "$output_file" 2> "$output_file.err"
+$EXE $instance $population_size $num_generations $elite_proportion $mutant_proportion $elite_inheritance_probability > "$output_file" 2> "$output_file.err"
 
 # Check if not empty
 if [ -s "$output_file" ]; then
