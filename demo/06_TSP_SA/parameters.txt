@@ -1,6 +1,6 @@
 # name                 switch                    type    values
-population_size       "--population_size "       i       (100, 500)
-num_generations       "--num_generations "       i       (500, 5000)
-elite_proportion      "--elite_proportion "      r       (0.1, 0.3)
-mutant_proportion     "--mutant_proportion "     r       (0.1, 0.3)
-elite_inheritance_probability "--elite_inheritance_probability " r (0.6, 0.9)
+population_size       "--population_size "       i       (20, 50)
+num_generations       "--num_generations "       i       (500, 1000)
+elite_proportion      "--elite_proportion "      r       (0.3, 0.5)
+mutant_proportion     "--mutant_proportion "     r       (0.2, 0.4)
+elite_inheritance_probability "--elite_inheritance_probability " r (0.5, 0.7)

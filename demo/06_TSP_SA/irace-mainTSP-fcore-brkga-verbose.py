@@ -7,8 +7,6 @@ from optframe.protocols import *
 from optframe.components import Move, NSIterator
 from optframe.heuristics import BRKGA
 from optframe.core import LibArrayDouble
-import sys
-import contextlib
 
 class SolutionTSP(object):
     def __init__(self):
@@ -160,19 +158,6 @@ class DecoderTSP(object):
         else:
             return (sol, e)
 
-@contextlib.contextmanager
-def silence_stdout_stderr():
-    with open('/dev/null', 'w') as fnull:
-        old_stdout = sys.stdout
-        old_stderr = sys.stderr
-        sys.stdout = fnull
-        sys.stderr = fnull
-        try:
-            yield
-        finally:
-            sys.stdout = old_stdout
-            sys.stderr = old_stderr
-
 def main():
     parser = argparse.ArgumentParser(description='Run TSP with BRKGA')
     parser.add_argument('instance', type=str, help='Path to the TSP instance file')
@@ -189,31 +174,68 @@ def main():
     pTSP = ProblemContextTSP()
     pTSP.load(args.instance)
 
-    with silence_stdout_stderr():
-        import optframe
-        pTSP.engine.welcome()
-        comp_list = pTSP.engine.setup(pTSP)
-        ev_idx = comp_list[1]
-        c_rk_idx = pTSP.engine.add_constructive_rk_class(pTSP, RKConstructiveTSP)
-        dec_rk_idx = pTSP.engine.add_decoder_rk_class(pTSP, DecoderTSP)
-        drk_rk_id = pTSP.engine.add_edecoder_op_rk_class(pTSP, DecoderTSP)
+    print("problem=", pTSP)
 
-        brkga = BRKGA(
-            pTSP.engine, drk_rk_id, c_rk_idx,
-            args.population_size, args.num_generations,
-            args.elite_proportion, args.mutant_proportion, args.elite_inheritance_probability
-        )
+    import optframe
+    print(str(optframe.__version__))
+    pTSP.engine.welcome()
 
-        # Initial solution and evaluation
-        initial_sol = ProblemContextTSP.generateSolution(pTSP)
-        initial_eval = ProblemContextTSP.minimize(pTSP, initial_sol)
+    comp_list = pTSP.engine.setup(pTSP)
+    print(comp_list)
 
-        lout = brkga.search(3000.0)
-        best_solution = lout.best_s
-        best_evaluation = lout.best_e
+    ev_idx = comp_list[1]
+    print("evaluator id:", ev_idx)
 
-    # Output only the objective function value for irace
-    print(best_evaluation)
+    c_rk_idx = pTSP.engine.add_constructive_rk_class(pTSP, RKConstructiveTSP)
+    print("c_rk_idx=", c_rk_idx)
+
+    print("")
+    dec_rk_idx = pTSP.engine.add_decoder_rk_class(pTSP, DecoderTSP)
+    print("dec_rk_idx=", dec_rk_idx)
+
+    print("")
+    print("WILL CREATE DecoderRandomKeys directly with simultaneous evaluation and optional solution!")
+    drk_rk_id = pTSP.engine.add_edecoder_op_rk_class(pTSP, DecoderTSP)
+    print("drk_rk_id=", drk_rk_id)
+
+    pTSP.engine.list_components("OptFrame:")
+
+    print("")
+    print("will start BRKGA for 3 seconds")
+
+    brkga = BRKGA(
+        pTSP.engine, drk_rk_id, c_rk_idx,
+        args.population_size, args.num_generations,
+        args.elite_proportion, args.mutant_proportion, args.elite_inheritance_probability
+    )
+
+    pTSP.engine.list_components("OptFrame:")
+
+    # Start timer
+    start_time = time.time()
+
+    # Initial solution and evaluation
+    initial_sol = ProblemContextTSP.generateSolution(pTSP)
+    initial_eval = ProblemContextTSP.minimize(pTSP, initial_sol)
+
+    lout = brkga.search(3000.0)
+    best_solution = lout.best_s
+    best_evaluation = lout.best_e
+
+    # Calculate improvement
+    improvement = 100.0 * (initial_eval - best_evaluation) / initial_eval
+
+    # Print results
+    print("Initial evaluation:", initial_eval)
+    print("Initial solution:", initial_sol.cities)
+    print(f"BRKGA parameters: population size = {args.population_size}, num generations = {args.num_generations}, elite proportion = {args.elite_proportion}, mutant proportion = {args.mutant_proportion}, elite inheritance probability = {args.elite_inheritance_probability}")
+    print("Best solution found by BRKGA: Evaluation function value =", best_evaluation)
+    print("Best solution:", best_solution.cities)
+    print("Improvement:", improvement, "%")
+
+    # Print execution time
+    execution_time = time.time() - start_time
+    print("Execution Time:", execution_time, "seconds")
 
 if __name__ == "__main__":
     main()

@@ -1,5 +1,3 @@
-# run_irace.R
-
 # Verificar se o pacote irace está instalado, caso contrário, instalar
 if (!requireNamespace("irace", quietly = TRUE)) {
   install.packages("irace")
@@ -22,7 +20,7 @@ scenario <- list(
   targetRunner = target_runner_path,
   trainInstancesDir = file.path(getwd(), "instances"),
   trainInstancesFile = file.path(getwd(), "instances", "instances-list.txt"),
-  maxExperiments = 1000
+  maxExperiments = 500
 )
 
 # Salvar o cenário em um arquivo temporário
