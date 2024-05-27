@@ -95,3 +95,959 @@ Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/d
 Cost: 9451.97902488006
 Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 59 1684 0.1148 0.3896 0.722
 Cost: 10252.218604899475
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 50 520 0.3363 0.3484 0.5404
+Cost: 13336.534648906585
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 50 862 0.4974 0.2761 0.5341
+Cost: 13238.470052562265
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 45 747 0.4269 0.2676 0.5345
+Cost: 13547.381031208668
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 24 560 0.4194 0.3439 0.5999
+Cost: 15230.525496819542
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 25 617 0.3495 0.3164 0.5522
+Cost: 14310.439413402075
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 37 895 0.4423 0.2909 0.6065
+Cost: 11937.48348288968
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 43 896 0.3879 0.2579 0.5818
+Cost: 12743.104605370261
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 39 684 0.4498 0.284 0.6676
+Cost: 13686.292481631794
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 38 995 0.4932 0.3808 0.5447
+Cost: 20458.86577905844
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 29 563 0.4586 0.2621 0.6973
+Cost: 14365.698841061074
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 40 557 0.3207 0.3078 0.6231
+Cost: 12243.738578880075
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 47 637 0.4738 0.2343 0.5598
+Cost: 12194.83561748061
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 45 842 0.4513 0.2554 0.5798
+Cost: 12037.214273303916
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 49 760 0.4177 0.3391 0.6006
+Cost: 13575.289719362083
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 43 922 0.3357 0.3277 0.5432
+Cost: 12151.740004448558
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 40 802 0.3042 0.3073 0.5756
+Cost: 12666.466779288898
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 24 999 0.3721 0.2829 0.6765
+Cost: 12367.492780770704
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 41 818 0.3828 0.3351 0.6667
+Cost: 11559.338665219282
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 45 801 0.4228 0.2779 0.5459
+Cost: 13596.49320395837
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 48 620 0.4762 0.3794 0.6347
+Cost: 17466.351939201257
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 50 520 0.3363 0.3484 0.5404
+Cost: 80989.97227710733
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 50 862 0.4974 0.2761 0.5341
+Cost: 78576.46157211682
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 45 747 0.4269 0.2676 0.5345
+Cost: 77711.02418745804
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 24 560 0.4194 0.3439 0.5999
+Cost: 93379.32353466247
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 25 617 0.3495 0.3164 0.5522
+Cost: 78290.15590977513
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 37 895 0.4423 0.2909 0.6065
+Cost: 75642.6539785615
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 43 896 0.3879 0.2579 0.5818
+Cost: 74051.51274044653
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 39 684 0.4498 0.284 0.6676
+Cost: 79505.57692566837
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 38 995 0.4932 0.3808 0.5447
+Cost: 117354.6348819908
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 29 563 0.4586 0.2621 0.6973
+Cost: 87527.33736473549
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 40 557 0.3207 0.3078 0.6231
+Cost: 75868.75716958991
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 47 637 0.4738 0.2343 0.5598
+Cost: 78701.9746723375
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 45 842 0.4513 0.2554 0.5798
+Cost: 74382.0338494843
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 49 760 0.4177 0.3391 0.6006
+Cost: 84088.77796055347
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 43 922 0.3357 0.3277 0.5432
+Cost: 71066.62992734804
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 40 802 0.3042 0.3073 0.5756
+Cost: 78681.8190922992
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 24 999 0.3721 0.2829 0.6765
+Cost: 72289.11381204316
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 41 818 0.3828 0.3351 0.6667
+Cost: 72160.30822889008
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 45 801 0.4228 0.2779 0.5459
+Cost: 71194.58372097673
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 48 620 0.4762 0.3794 0.6347
+Cost: 108421.34502897953
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 50 520 0.3363 0.3484 0.5404
+Cost: 108662.14661881287
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 50 862 0.4974 0.2761 0.5341
+Cost: 111284.41160913992
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 45 747 0.4269 0.2676 0.5345
+Cost: 112044.6048714659
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 24 560 0.4194 0.3439 0.5999
+Cost: 110586.3344894145
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 25 617 0.3495 0.3164 0.5522
+Cost: 97795.76480236831
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 37 895 0.4423 0.2909 0.6065
+Cost: 95496.5735786415
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 43 896 0.3879 0.2579 0.5818
+Cost: 90256.0437907737
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 39 684 0.4498 0.284 0.6676
+Cost: 97068.0590431205
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 38 995 0.4932 0.3808 0.5447
+Cost: 118875.56091403702
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 29 563 0.4586 0.2621 0.6973
+Cost: 97198.10326737161
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 40 557 0.3207 0.3078 0.6231
+Cost: 93562.41194239446
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 47 637 0.4738 0.2343 0.5598
+Cost: 106107.54399423403
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 45 842 0.4513 0.2554 0.5798
+Cost: 96337.32870081712
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 49 760 0.4177 0.3391 0.6006
+Cost: 105218.03629323783
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 43 922 0.3357 0.3277 0.5432
+Cost: 98575.04787198828
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 40 802 0.3042 0.3073 0.5756
+Cost: 92253.07731787406
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 24 999 0.3721 0.2829 0.6765
+Cost: 87330.94113697369
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 41 818 0.3828 0.3351 0.6667
+Cost: 92350.43036137732
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 45 801 0.4228 0.2779 0.5459
+Cost: 101007.05053422855
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 48 620 0.4762 0.3794 0.6347
+Cost: 118227.42837112941
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 50 520 0.3363 0.3484 0.5404
+Cost: 454417.0369330893
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 50 862 0.4974 0.2761 0.5341
+Cost: 436332.0070717793
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 45 747 0.4269 0.2676 0.5345
+Cost: 439315.90663727815
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 24 560 0.4194 0.3439 0.5999
+Cost: 454441.40693526814
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 25 617 0.3495 0.3164 0.5522
+Cost: 414425.1539188573
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 37 895 0.4423 0.2909 0.6065
+Cost: 400513.0963666863
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 43 896 0.3879 0.2579 0.5818
+Cost: 350172.0211004692
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 39 684 0.4498 0.284 0.6676
+Cost: 401340.50950768753
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 38 995 0.4932 0.3808 0.5447
+Cost: 506338.06053893105
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 29 563 0.4586 0.2621 0.6973
+Cost: 407711.31881405605
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 40 557 0.3207 0.3078 0.6231
+Cost: 385359.73664151813
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 47 637 0.4738 0.2343 0.5598
+Cost: 435673.2147291932
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 45 842 0.4513 0.2554 0.5798
+Cost: 381387.88014987204
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 49 760 0.4177 0.3391 0.6006
+Cost: 425911.55515570747
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 43 922 0.3357 0.3277 0.5432
+Cost: 376072.07667752076
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 40 802 0.3042 0.3073 0.5756
+Cost: 366695.60813525633
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 24 999 0.3721 0.2829 0.6765
+Cost: 351635.8950175449
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 41 818 0.3828 0.3351 0.6667
+Cost: 387173.34165707475
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 45 801 0.4228 0.2779 0.5459
+Cost: 401478.49843981635
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 48 620 0.4762 0.3794 0.6347
+Cost: 520293.23435872066
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 50 520 0.3363 0.3484 0.5404
+Cost: 706868.3925134713
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 50 862 0.4974 0.2761 0.5341
+Cost: 754700.7314285162
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 45 747 0.4269 0.2676 0.5345
+Cost: 691912.2387121482
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 24 560 0.4194 0.3439 0.5999
+Cost: 723898.4887521919
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 25 617 0.3495 0.3164 0.5522
+Cost: 664570.5505420173
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 37 895 0.4423 0.2909 0.6065
+Cost: 681811.4788216518
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 43 896 0.3879 0.2579 0.5818
+Cost: 616470.9487801776
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 39 684 0.4498 0.284 0.6676
+Cost: 654289.8731032064
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 38 995 0.4932 0.3808 0.5447
+Cost: 786018.2900425717
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 29 563 0.4586 0.2621 0.6973
+Cost: 661192.4206617068
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 40 557 0.3207 0.3078 0.6231
+Cost: 628132.5482647289
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 47 637 0.4738 0.2343 0.5598
+Cost: 722584.9506645278
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 45 842 0.4513 0.2554 0.5798
+Cost: 652197.6695064121
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 49 760 0.4177 0.3391 0.6006
+Cost: 692474.0804723351
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 43 922 0.3357 0.3277 0.5432
+Cost: 656921.586792309
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 40 802 0.3042 0.3073 0.5756
+Cost: 615114.4401999762
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 24 999 0.3721 0.2829 0.6765
+Cost: 612451.4589342899
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 41 818 0.3828 0.3351 0.6667
+Cost: 633242.9779585425
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 45 801 0.4228 0.2779 0.5459
+Cost: 699782.694799927
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 48 620 0.4762 0.3794 0.6347
+Cost: 760255.2903663409
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 37 895 0.4423 0.2909 0.6065
+Cost: 212641.77056587202
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 43 896 0.3879 0.2579 0.5818
+Cost: 199939.4311354215
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 40 557 0.3207 0.3078 0.6231
+Cost: 208509.56972959908
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 45 842 0.4513 0.2554 0.5798
+Cost: 209709.69322882537
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 43 922 0.3357 0.3277 0.5432
+Cost: 210514.91614450436
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 40 802 0.3042 0.3073 0.5756
+Cost: 199622.70234084205
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 24 999 0.3721 0.2829 0.6765
+Cost: 194378.53123611133
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 41 818 0.3828 0.3351 0.6667
+Cost: 205039.42065025697
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 37 895 0.4423 0.2909 0.6065
+Cost: 952052.4739120671
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 43 896 0.3879 0.2579 0.5818
+Cost: 911762.112580449
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 40 557 0.3207 0.3078 0.6231
+Cost: 973584.3592618942
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 45 842 0.4513 0.2554 0.5798
+Cost: 972885.8699456232
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 43 922 0.3357 0.3277 0.5432
+Cost: 937139.9461982636
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 40 802 0.3042 0.3073 0.5756
+Cost: 946202.3853685264
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 24 999 0.3721 0.2829 0.6765
+Cost: 835462.2704068811
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 41 818 0.3828 0.3351 0.6667
+Cost: 891383.2366681572
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 24 999 0.3721 0.2829 0.6765
+Cost: 125828.07770405503
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 43 896 0.3879 0.2579 0.5818
+Cost: 127649.84010172465
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 41 818 0.3828 0.3351 0.6667
+Cost: 132757.45732119418
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 40 802 0.3042 0.3073 0.5756
+Cost: 128197.78020077414
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 37 735 0.313 0.2577 0.5721
+Cost: 124786.49348780925
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 24 895 0.345 0.2915 0.6939
+Cost: 128160.7370393117
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 37 731 0.3775 0.3374 0.6252
+Cost: 137499.49793356162
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 38 696 0.3213 0.3614 0.6418
+Cost: 135622.49930692403
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 29 938 0.3211 0.2418 0.6396
+Cost: 121607.1768351757
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 37 977 0.3111 0.2821 0.6117
+Cost: 120788.12261438725
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 25 925 0.3745 0.3056 0.691
+Cost: 130072.56964002055
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 37 918 0.3341 0.2536 0.6631
+Cost: 118847.4795095511
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 31 770 0.3514 0.2844 0.5372
+Cost: 133491.9362882065
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 50 913 0.3004 0.3407 0.6622
+Cost: 123356.10472417019
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 44 996 0.3565 0.2996 0.6358
+Cost: 126159.66256109884
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 40 888 0.4052 0.3159 0.5297
+Cost: 146713.9971446694
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 22 941 0.4127 0.2933 0.6863
+Cost: 133505.51849362743
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 27 928 0.3833 0.2932 0.6118
+Cost: 135528.78924408878
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 27 864 0.4317 0.3369 0.6886
+Cost: 138576.28986643226
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 37 735 0.313 0.2577 0.5721
+Cost: 86653.20631914125
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 24 895 0.345 0.2915 0.6939
+Cost: 88595.59224537769
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 37 731 0.3775 0.3374 0.6252
+Cost: 97097.24127632039
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 38 696 0.3213 0.3614 0.6418
+Cost: 94548.98592561528
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 29 938 0.3211 0.2418 0.6396
+Cost: 86617.19345539002
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 37 977 0.3111 0.2821 0.6117
+Cost: 88378.22606796712
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 25 925 0.3745 0.3056 0.691
+Cost: 89200.34333280454
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 37 918 0.3341 0.2536 0.6631
+Cost: 86511.78378110648
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 31 770 0.3514 0.2844 0.5372
+Cost: 92015.1147569717
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 50 913 0.3004 0.3407 0.6622
+Cost: 87427.87177839105
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 44 996 0.3565 0.2996 0.6358
+Cost: 88870.01203647429
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 40 888 0.4052 0.3159 0.5297
+Cost: 104884.06890276937
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 22 941 0.4127 0.2933 0.6863
+Cost: 97421.82808335629
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 27 928 0.3833 0.2932 0.6118
+Cost: 94729.59601681965
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 27 864 0.4317 0.3369 0.6886
+Cost: 100753.06164888428
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 37 735 0.313 0.2577 0.5721
+Cost: 198476.4627421914
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 24 895 0.345 0.2915 0.6939
+Cost: 194125.95870671287
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 37 731 0.3775 0.3374 0.6252
+Cost: 210390.60081487545
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 38 696 0.3213 0.3614 0.6418
+Cost: 203931.5591331386
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 29 938 0.3211 0.2418 0.6396
+Cost: 186892.70120738045
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 37 977 0.3111 0.2821 0.6117
+Cost: 193960.46351597304
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 25 925 0.3745 0.3056 0.691
+Cost: 199492.21295006017
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 37 918 0.3341 0.2536 0.6631
+Cost: 192549.76158398684
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 31 770 0.3514 0.2844 0.5372
+Cost: 206990.39738891026
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 50 913 0.3004 0.3407 0.6622
+Cost: 195605.05613318316
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 44 996 0.3565 0.2996 0.6358
+Cost: 194199.87534330034
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 40 888 0.4052 0.3159 0.5297
+Cost: 222747.35702881197
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 22 941 0.4127 0.2933 0.6863
+Cost: 203667.08815936738
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 27 928 0.3833 0.2932 0.6118
+Cost: 203743.86079990672
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 27 864 0.4317 0.3369 0.6886
+Cost: 213567.34656062687
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 37 735 0.313 0.2577 0.5721
+Cost: 13025.4921866692
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 24 895 0.345 0.2915 0.6939
+Cost: 13247.150834275268
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 37 731 0.3775 0.3374 0.6252
+Cost: 11555.84077176907
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 38 696 0.3213 0.3614 0.6418
+Cost: 13218.017989762793
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 29 938 0.3211 0.2418 0.6396
+Cost: 13586.158199614922
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 37 977 0.3111 0.2821 0.6117
+Cost: 12023.93847835516
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 25 925 0.3745 0.3056 0.691
+Cost: 13054.618256162725
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 37 918 0.3341 0.2536 0.6631
+Cost: 12574.886893878172
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 31 770 0.3514 0.2844 0.5372
+Cost: 13318.644651436012
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 50 913 0.3004 0.3407 0.6622
+Cost: 12337.976344865529
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 44 996 0.3565 0.2996 0.6358
+Cost: 11721.859409371897
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 40 888 0.4052 0.3159 0.5297
+Cost: 14538.116528370278
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 22 941 0.4127 0.2933 0.6863
+Cost: 14736.94884365094
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 27 928 0.3833 0.2932 0.6118
+Cost: 12710.411142524968
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 27 864 0.4317 0.3369 0.6886
+Cost: 15327.782352179442
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 37 735 0.313 0.2577 0.5721
+Cost: 355089.21810702275
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 24 895 0.345 0.2915 0.6939
+Cost: 357564.58701617684
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 37 731 0.3775 0.3374 0.6252
+Cost: 381448.4662774188
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 38 696 0.3213 0.3614 0.6418
+Cost: 406084.45811380877
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 29 938 0.3211 0.2418 0.6396
+Cost: 354980.08502897393
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 37 977 0.3111 0.2821 0.6117
+Cost: 331331.6134968865
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 25 925 0.3745 0.3056 0.691
+Cost: 364972.22963190795
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 37 918 0.3341 0.2536 0.6631
+Cost: 345235.96928803093
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 31 770 0.3514 0.2844 0.5372
+Cost: 388602.53649938176
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 50 913 0.3004 0.3407 0.6622
+Cost: 339751.91780181363
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 44 996 0.3565 0.2996 0.6358
+Cost: 356465.34850423347
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 40 888 0.4052 0.3159 0.5297
+Cost: 420910.5744476853
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 22 941 0.4127 0.2933 0.6863
+Cost: 394564.0876559009
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 27 928 0.3833 0.2932 0.6118
+Cost: 375732.60885725205
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 27 864 0.4317 0.3369 0.6886
+Cost: 408288.7345861892
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 37 735 0.313 0.2577 0.5721
+Cost: 67734.61626647919
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 29 938 0.3211 0.2418 0.6396
+Cost: 73589.35320352014
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 37 977 0.3111 0.2821 0.6117
+Cost: 66536.47266418488
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 37 918 0.3341 0.2536 0.6631
+Cost: 67579.19027522307
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 50 913 0.3004 0.3407 0.6622
+Cost: 63384.502962638035
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 44 996 0.3565 0.2996 0.6358
+Cost: 73760.53673652234
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 29 938 0.3211 0.2418 0.6396
+Cost: 601873.0202733637
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 37 977 0.3111 0.2821 0.6117
+Cost: 593699.2741989285
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 37 918 0.3341 0.2536 0.6631
+Cost: 555410.827685961
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 50 913 0.3004 0.3407 0.6622
+Cost: 614282.6245470317
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 29 938 0.3211 0.2418 0.6396
+Cost: 905653.0477185977
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 37 977 0.3111 0.2821 0.6117
+Cost: 826368.4816280432
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 37 918 0.3341 0.2536 0.6631
+Cost: 884633.9924495957
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 50 913 0.3004 0.3407 0.6622
+Cost: 896455.4138716852
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 37 977 0.3111 0.2821 0.6117
+Cost: 123364.09567991609
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 37 918 0.3341 0.2536 0.6631
+Cost: 121906.1575425835
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 50 913 0.3004 0.3407 0.6622
+Cost: 127436.23512521561
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 24 999 0.3721 0.2829 0.6765
+Cost: 123521.01430093386
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 36 975 0.3253 0.2307 0.6261
+Cost: 118791.03881687982
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 35 830 0.3458 0.2451 0.6515
+Cost: 120458.90504021275
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 39 835 0.3744 0.3124 0.6752
+Cost: 127930.62956741438
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 41 838 0.3333 0.2422 0.6466
+Cost: 120302.26132589902
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 43 842 0.3125 0.2685 0.635
+Cost: 119953.41467702115
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 31 802 0.3063 0.2159 0.6957
+Cost: 114130.0625507575
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 50 946 0.3318 0.3122 0.6612
+Cost: 123782.54382685317
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 33 996 0.3047 0.2909 0.5617
+Cost: 126142.2021827167
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 38 927 0.3561 0.245 0.6941
+Cost: 119581.16481567282
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 50 935 0.3202 0.3109 0.6829
+Cost: 124164.90162326381
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 35 924 0.3337 0.2525 0.5999
+Cost: 122708.82740937475
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 44 930 0.3392 0.3281 0.6767
+Cost: 124690.38550952173
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 42 912 0.3072 0.3053 0.67
+Cost: 119233.91895368384
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 43 928 0.3217 0.2651 0.6727
+Cost: 119189.22248516377
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 41 904 0.3499 0.3169 0.6314
+Cost: 127090.91150009749
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 36 975 0.3253 0.2307 0.6261
+Cost: 181114.09684452743
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 35 830 0.3458 0.2451 0.6515
+Cost: 194353.4967147409
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 39 835 0.3744 0.3124 0.6752
+Cost: 200946.22069449796
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 41 838 0.3333 0.2422 0.6466
+Cost: 185936.2088313378
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 43 842 0.3125 0.2685 0.635
+Cost: 186686.5435708004
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 31 802 0.3063 0.2159 0.6957
+Cost: 188147.16057271828
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 50 946 0.3318 0.3122 0.6612
+Cost: 190498.13348760072
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 33 996 0.3047 0.2909 0.5617
+Cost: 200892.19739413037
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 38 927 0.3561 0.245 0.6941
+Cost: 183780.35959950805
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 50 935 0.3202 0.3109 0.6829
+Cost: 189638.29304072543
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 35 924 0.3337 0.2525 0.5999
+Cost: 190682.98749252388
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 44 930 0.3392 0.3281 0.6767
+Cost: 193736.29367357623
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 42 912 0.3072 0.3053 0.67
+Cost: 187722.35481355802
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 43 928 0.3217 0.2651 0.6727
+Cost: 185139.1569136028
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 41 904 0.3499 0.3169 0.6314
+Cost: 194231.5930105503
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 36 975 0.3253 0.2307 0.6261
+Cost: 64557.125028679686
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 35 830 0.3458 0.2451 0.6515
+Cost: 64310.0279001356
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 39 835 0.3744 0.3124 0.6752
+Cost: 74990.44969134603
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 41 838 0.3333 0.2422 0.6466
+Cost: 69336.89656751152
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 43 842 0.3125 0.2685 0.635
+Cost: 63636.93095839138
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 31 802 0.3063 0.2159 0.6957
+Cost: 74749.6356121919
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 50 946 0.3318 0.3122 0.6612
+Cost: 63041.125996583105
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 33 996 0.3047 0.2909 0.5617
+Cost: 63087.50823721322
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 38 927 0.3561 0.245 0.6941
+Cost: 66214.38689827075
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 50 935 0.3202 0.3109 0.6829
+Cost: 66577.67645035386
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 35 924 0.3337 0.2525 0.5999
+Cost: 67401.22070725526
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 44 930 0.3392 0.3281 0.6767
+Cost: 63518.77791747187
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 42 912 0.3072 0.3053 0.67
+Cost: 68357.14133859516
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 43 928 0.3217 0.2651 0.6727
+Cost: 65764.16941266746
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 41 904 0.3499 0.3169 0.6314
+Cost: 74005.56579895489
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 36 975 0.3253 0.2307 0.6261
+Cost: 115409.5160160124
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 35 830 0.3458 0.2451 0.6515
+Cost: 123233.89936289816
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 39 835 0.3744 0.3124 0.6752
+Cost: 127674.42544756581
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 41 838 0.3333 0.2422 0.6466
+Cost: 121051.82321299304
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 43 842 0.3125 0.2685 0.635
+Cost: 118634.00759885392
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 31 802 0.3063 0.2159 0.6957
+Cost: 116553.82521239104
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 50 946 0.3318 0.3122 0.6612
+Cost: 122038.89183069444
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 33 996 0.3047 0.2909 0.5617
+Cost: 129193.08220662254
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 38 927 0.3561 0.245 0.6941
+Cost: 122832.74421113754
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 50 935 0.3202 0.3109 0.6829
+Cost: 117254.55386096872
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 35 924 0.3337 0.2525 0.5999
+Cost: 119525.2237194019
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 44 930 0.3392 0.3281 0.6767
+Cost: 127561.48675955267
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 42 912 0.3072 0.3053 0.67
+Cost: 123168.01656750361
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 43 928 0.3217 0.2651 0.6727
+Cost: 116707.39912834617
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 41 904 0.3499 0.3169 0.6314
+Cost: 126825.44628754891
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 36 975 0.3253 0.2307 0.6261
+Cost: 578227.2609639562
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 35 830 0.3458 0.2451 0.6515
+Cost: 576738.4273185788
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 39 835 0.3744 0.3124 0.6752
+Cost: 629299.4316658383
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 41 838 0.3333 0.2422 0.6466
+Cost: 563680.2668530375
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 43 842 0.3125 0.2685 0.635
+Cost: 575845.5383473248
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 31 802 0.3063 0.2159 0.6957
+Cost: 557681.7013715241
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 50 946 0.3318 0.3122 0.6612
+Cost: 580368.6112550858
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 33 996 0.3047 0.2909 0.5617
+Cost: 626232.9331289999
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 38 927 0.3561 0.245 0.6941
+Cost: 563085.7941042838
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 50 935 0.3202 0.3109 0.6829
+Cost: 571394.8042754583
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 35 924 0.3337 0.2525 0.5999
+Cost: 584393.990749748
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 44 930 0.3392 0.3281 0.6767
+Cost: 615795.9367775108
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 42 912 0.3072 0.3053 0.67
+Cost: 587875.9728425365
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 43 928 0.3217 0.2651 0.6727
+Cost: 553461.3677115281
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 41 904 0.3499 0.3169 0.6314
+Cost: 600040.7599803084
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 36 975 0.3253 0.2307 0.6261
+Cost: 334922.11515164626
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 41 838 0.3333 0.2422 0.6466
+Cost: 320673.04594865756
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 43 842 0.3125 0.2685 0.635
+Cost: 340881.1472250832
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 31 802 0.3063 0.2159 0.6957
+Cost: 348664.39472985745
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 50 946 0.3318 0.3122 0.6612
+Cost: 344444.64799657447
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 38 927 0.3561 0.245 0.6941
+Cost: 330094.109532658
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 50 935 0.3202 0.3109 0.6829
+Cost: 346851.19517122145
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 43 928 0.3217 0.2651 0.6727
+Cost: 327657.8138619922
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 36 975 0.3253 0.2307 0.6261
+Cost: 11959.589144644478
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 41 838 0.3333 0.2422 0.6466
+Cost: 12422.20581728762
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 43 842 0.3125 0.2685 0.635
+Cost: 12112.271486384523
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 31 802 0.3063 0.2159 0.6957
+Cost: 11334.011288710053
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 38 927 0.3561 0.245 0.6941
+Cost: 10326.829429483394
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 43 928 0.3217 0.2651 0.6727
+Cost: 12532.141965736624
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 36 975 0.3253 0.2307 0.6261
+Cost: 82011.57902943857
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 41 838 0.3333 0.2422 0.6466
+Cost: 84663.73745597422
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 43 842 0.3125 0.2685 0.635
+Cost: 84871.56288498623
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 31 802 0.3063 0.2159 0.6957
+Cost: 86729.33003672061
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 38 927 0.3561 0.245 0.6941
+Cost: 84480.71781826591
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 43 928 0.3217 0.2651 0.6727
+Cost: 85994.66716755637
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 36 975 0.3253 0.2307 0.6261
+Cost: 823540.4846211865
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 41 838 0.3333 0.2422 0.6466
+Cost: 821306.9213243673
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 43 842 0.3125 0.2685 0.635
+Cost: 845549.881987131
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 31 802 0.3063 0.2159 0.6957
+Cost: 836338.2014349175
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 38 927 0.3561 0.245 0.6941
+Cost: 878750.630252551
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 43 928 0.3217 0.2651 0.6727
+Cost: 860781.3228999515
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 36 975 0.3253 0.2307 0.6261
+Cost: 82105.37587318965
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 41 838 0.3333 0.2422 0.6466
+Cost: 81663.45083211835
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 43 842 0.3125 0.2685 0.635
+Cost: 85021.33658370619
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 31 802 0.3063 0.2159 0.6957
+Cost: 80013.54742832057
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 38 927 0.3561 0.245 0.6941
+Cost: 83544.3727497873
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 43 928 0.3217 0.2651 0.6727
+Cost: 80914.96634981285
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 36 975 0.3253 0.2307 0.6261
+Cost: 183158.38383331773
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 41 838 0.3333 0.2422 0.6466
+Cost: 186300.9987359812
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 43 842 0.3125 0.2685 0.635
+Cost: 191599.69978947582
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 31 802 0.3063 0.2159 0.6957
+Cost: 187709.52256113483
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 38 927 0.3561 0.245 0.6941
+Cost: 185755.91947808609
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 43 928 0.3217 0.2651 0.6727
+Cost: 184476.30671266894
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 36 975 0.3253 0.2307 0.6261
+Cost: 844769.1511361329
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 43 928 0.3217 0.2651 0.6727
+Cost: 809403.5470584778
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 38 927 0.3561 0.245 0.6941
+Cost: 836118.7936255613
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 31 802 0.3063 0.2159 0.6957
+Cost: 826889.2478718174
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 31 969 0.3107 0.2699 0.6507
+Cost: 862968.026288071
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 38 908 0.3048 0.2259 0.6468
+Cost: 783705.8219699657
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 33 899 0.3433 0.2373 0.6096
+Cost: 830647.4746358009
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 44 929 0.3572 0.26 0.6718
+Cost: 793283.2311475695
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 32 906 0.394 0.2459 0.6787
+Cost: 815254.5469943654
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 39 952 0.3126 0.267 0.6717
+Cost: 779404.8893694414
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 45 933 0.3156 0.248 0.6724
+Cost: 797147.8328443231
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 43 923 0.3019 0.3018 0.6886
+Cost: 773408.2173965006
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 34 990 0.3071 0.2516 0.614
+Cost: 769056.5952605073
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 39 859 0.3256 0.2846 0.6704
+Cost: 906958.9758624345
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 32 810 0.3347 0.2372 0.6493
+Cost: 867919.7957148117
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 35 982 0.3209 0.2075 0.6107
+Cost: 805169.1087710748
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 27 886 0.3258 0.2321 0.6089
+Cost: 866907.4654489558
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 40 987 0.3723 0.2343 0.6964
+Cost: 764394.1570202608
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 31 969 0.3107 0.2699 0.6507
+Cost: 908356.9793380718
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 38 908 0.3048 0.2259 0.6468
+Cost: 790142.5538807111
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 33 899 0.3433 0.2373 0.6096
+Cost: 850409.665850193
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 44 929 0.3572 0.26 0.6718
+Cost: 822701.3031064941
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 32 906 0.394 0.2459 0.6787
+Cost: 835388.0052977657
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 39 952 0.3126 0.267 0.6717
+Cost: 846207.1563460823
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 45 933 0.3156 0.248 0.6724
+Cost: 797596.0292220656
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 43 923 0.3019 0.3018 0.6886
+Cost: 817835.3225202553
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 34 990 0.3071 0.2516 0.614
+Cost: 804797.9957345641
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 39 859 0.3256 0.2846 0.6704
+Cost: 872311.4448070694
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 32 810 0.3347 0.2372 0.6493
+Cost: 860669.3638476627
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 35 982 0.3209 0.2075 0.6107
+Cost: 767709.8943987681
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 27 886 0.3258 0.2321 0.6089
+Cost: 918464.1040854508
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 40 987 0.3723 0.2343 0.6964
+Cost: 797383.2210574093
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 31 969 0.3107 0.2699 0.6507
+Cost: 191059.1312380858
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 38 908 0.3048 0.2259 0.6468
+Cost: 184533.09841418752
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 33 899 0.3433 0.2373 0.6096
+Cost: 190344.0239737347
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 44 929 0.3572 0.26 0.6718
+Cost: 186100.52550887538
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 32 906 0.394 0.2459 0.6787
+Cost: 187777.93395599892
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 39 952 0.3126 0.267 0.6717
+Cost: 183728.46352096854
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 45 933 0.3156 0.248 0.6724
+Cost: 183870.084484168
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 43 923 0.3019 0.3018 0.6886
+Cost: 186119.69623020946
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 34 990 0.3071 0.2516 0.614
+Cost: 194169.16658133917
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 39 859 0.3256 0.2846 0.6704
+Cost: 194360.7844592799
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 32 810 0.3347 0.2372 0.6493
+Cost: 191465.80991828526
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 35 982 0.3209 0.2075 0.6107
+Cost: 183103.38442771207
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 27 886 0.3258 0.2321 0.6089
+Cost: 187737.11985813966
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 40 987 0.3723 0.2343 0.6964
+Cost: 181981.40807608975
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 31 969 0.3107 0.2699 0.6507
+Cost: 63260.478982725544
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 38 908 0.3048 0.2259 0.6468
+Cost: 64160.79379620562
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 33 899 0.3433 0.2373 0.6096
+Cost: 64624.473002047846
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 44 929 0.3572 0.26 0.6718
+Cost: 65676.86024660472
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 32 906 0.394 0.2459 0.6787
+Cost: 71049.76536495225
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 39 952 0.3126 0.267 0.6717
+Cost: 64936.39328380649
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 45 933 0.3156 0.248 0.6724
+Cost: 66912.16256067924
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 43 923 0.3019 0.3018 0.6886
+Cost: 56326.4925614696
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 34 990 0.3071 0.2516 0.614
+Cost: 68718.04144519269
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 39 859 0.3256 0.2846 0.6704
+Cost: 75523.44953940927
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 32 810 0.3347 0.2372 0.6493
+Cost: 71340.30641383279
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 35 982 0.3209 0.2075 0.6107
+Cost: 64394.32523041832
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 27 886 0.3258 0.2321 0.6089
+Cost: 64964.98314111133
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 40 987 0.3723 0.2343 0.6964
+Cost: 60896.39730506595
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 31 969 0.3107 0.2699 0.6507
+Cost: 115858.15091401094
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 38 908 0.3048 0.2259 0.6468
+Cost: 114425.62377200904
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 33 899 0.3433 0.2373 0.6096
+Cost: 123548.6104270155
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 44 929 0.3572 0.26 0.6718
+Cost: 119910.90374142861
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 32 906 0.394 0.2459 0.6787
+Cost: 123817.13442094404
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 39 952 0.3126 0.267 0.6717
+Cost: 115178.87167697077
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 45 933 0.3156 0.248 0.6724
+Cost: 113557.54848548381
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 43 923 0.3019 0.3018 0.6886
+Cost: 120147.53220458646
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 34 990 0.3071 0.2516 0.614
+Cost: 122812.09415278965
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 39 859 0.3256 0.2846 0.6704
+Cost: 121827.18221202747
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 32 810 0.3347 0.2372 0.6493
+Cost: 120893.11749962159
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 35 982 0.3209 0.2075 0.6107
+Cost: 113618.6130888904
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 27 886 0.3258 0.2321 0.6089
+Cost: 122769.17759130828
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 40 987 0.3723 0.2343 0.6964
+Cost: 113682.77877656961
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 38 908 0.3048 0.2259 0.6468
+Cost: 547855.3684511766
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 39 952 0.3126 0.267 0.6717
+Cost: 551871.8616682691
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 45 933 0.3156 0.248 0.6724
+Cost: 560963.7248074632
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 43 923 0.3019 0.3018 0.6886
+Cost: 564704.3264756146
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 35 982 0.3209 0.2075 0.6107
+Cost: 567891.935198118
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 40 987 0.3723 0.2343 0.6964
+Cost: 552289.2371283188
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 38 908 0.3048 0.2259 0.6468
+Cost: 330067.5181601482
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 39 952 0.3126 0.267 0.6717
+Cost: 335582.2770606788
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 45 933 0.3156 0.248 0.6724
+Cost: 320622.13211085025
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 35 982 0.3209 0.2075 0.6107
+Cost: 343384.2813761309
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 40 987 0.3723 0.2343 0.6964
+Cost: 331868.4794580741
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 38 908 0.3048 0.2259 0.6468
+Cost: 80216.46402690116
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 39 952 0.3126 0.267 0.6717
+Cost: 82807.64125261856
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 45 933 0.3156 0.248 0.6724
+Cost: 83090.33277782274
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 35 982 0.3209 0.2075 0.6107
+Cost: 84236.85318755599
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 40 987 0.3723 0.2343 0.6964
+Cost: 82463.95207535976
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 38 908 0.3048 0.2259 0.6468
+Cost: 183212.24143773082
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 39 952 0.3126 0.267 0.6717
+Cost: 190901.5456131967
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 45 933 0.3156 0.248 0.6724
+Cost: 185193.54708619943
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 35 982 0.3209 0.2075 0.6107
+Cost: 182205.74088123848
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 40 987 0.3723 0.2343 0.6964
+Cost: 185311.45688829027
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 38 908 0.3048 0.2259 0.6468
+Cost: 113891.81420055662
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 39 952 0.3126 0.267 0.6717
+Cost: 120594.2302237845
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 45 933 0.3156 0.248 0.6724
+Cost: 115981.93500965073
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 35 982 0.3209 0.2075 0.6107
+Cost: 116208.30768022606
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 40 987 0.3723 0.2343 0.6964
+Cost: 112660.46981479449
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 38 908 0.3048 0.2259 0.6468
+Cost: 10170.007207857689
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 45 933 0.3156 0.248 0.6724
+Cost: 11290.375333350632
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 35 982 0.3209 0.2075 0.6107
+Cost: 11599.080603523997
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 40 987 0.3723 0.2343 0.6964
+Cost: 11573.100873684512
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 38 908 0.3048 0.2259 0.6468
+Cost: 80607.19005982963
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 45 933 0.3156 0.248 0.6724
+Cost: 80096.61397443958
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 35 982 0.3209 0.2075 0.6107
+Cost: 83356.66284957658
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 40 987 0.3723 0.2343 0.6964
+Cost: 81361.96804724644
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 38 908 0.3048 0.2259 0.6468
+Cost: 60638.11616242117
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 40 987 0.3723 0.2343 0.6964
+Cost: 62392.60248285315
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 45 933 0.3156 0.248 0.6724
+Cost: 65118.88920990309
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 42 863 0.301 0.2633 0.6614
+Cost: 69390.63920922545
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 38 975 0.3156 0.2105 0.6474
+Cost: 58811.02781001075
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 36 905 0.3031 0.2306 0.6357
+Cost: 56984.32627587035
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 39 931 0.3169 0.2031 0.6378
+Cost: 63758.96398076855
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 42 863 0.301 0.2633 0.6614
+Cost: 849459.0101130338
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 38 975 0.3156 0.2105 0.6474
+Cost: 722364.3394543069
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 36 905 0.3031 0.2306 0.6357
+Cost: 773032.2561122224
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 39 931 0.3169 0.2031 0.6378
+Cost: 756278.0938723488
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 42 863 0.301 0.2633 0.6614
+Cost: 330198.07286131853
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 38 975 0.3156 0.2105 0.6474
+Cost: 319456.8234654249
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 36 905 0.3031 0.2306 0.6357
+Cost: 339966.730372901
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 39 931 0.3169 0.2031 0.6378
+Cost: 309309.07448540465
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 42 863 0.301 0.2633 0.6614
+Cost: 120284.05511325141
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 38 975 0.3156 0.2105 0.6474
+Cost: 114735.33866504938
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 36 905 0.3031 0.2306 0.6357
+Cost: 121417.45229619654
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 39 931 0.3169 0.2031 0.6378
+Cost: 113244.54695219417
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 42 863 0.301 0.2633 0.6614
+Cost: 118002.94245271207
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 38 975 0.3156 0.2105 0.6474
+Cost: 113744.70753561321
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 36 905 0.3031 0.2306 0.6357
+Cost: 115627.44782602305
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 39 931 0.3169 0.2031 0.6378
+Cost: 114740.02567888881
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 42 863 0.301 0.2633 0.6614
+Cost: 871993.4530210424
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 38 975 0.3156 0.2105 0.6474
+Cost: 779782.4222859143
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 36 905 0.3031 0.2306 0.6357
+Cost: 788427.1875061364
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 39 931 0.3169 0.2031 0.6378
+Cost: 797955.9385182022
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 38 975 0.3156 0.2105 0.6474
+Cost: 62042.292348589275
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/02_kroD100.tsp 39 931 0.3169 0.2031 0.6378
+Cost: 64309.59827586822
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 38 975 0.3156 0.2105 0.6474
+Cost: 13020.894152425219
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 39 931 0.3169 0.2031 0.6378
+Cost: 11693.249479345242
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 38 975 0.3156 0.2105 0.6474
+Cost: 529715.7240959336
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/06_d657.tsp 39 931 0.3169 0.2031 0.6378
+Cost: 539651.6002671537
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 38 975 0.3156 0.2105 0.6474
+Cost: 80145.19829745937
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 39 931 0.3169 0.2031 0.6378
+Cost: 79799.63371614268
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 38 975 0.3156 0.2105 0.6474
+Cost: 177131.93943749022
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 39 931 0.3169 0.2031 0.6378
+Cost: 177762.3927857155
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 38 975 0.3156 0.2105 0.6474
+Cost: 177542.78257428942
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 39 931 0.3169 0.2031 0.6378
+Cost: 178960.0474998998
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 38 975 0.3156 0.2105 0.6474
+Cost: 78544.87825984263
+Running: python3 irace-brkga-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 39 931 0.3169 0.2031 0.6378
+Cost: 78171.87857837498
+Running: python3 irace-brkga-runner.py 0.4 0.6    
+Cost: Usage: irace-brkga-runner.py <instance> <population_size> <num_generations> <elite_proportion> <mutant_proportion> <elite_inheritance_probability>
+Running: python3 irace-brkga-runner.py 0.4 0.6    
+Cost: Usage: irace-brkga-runner.py <instance> <population_size> <num_generations> <elite_proportion> <mutant_proportion> <elite_inheritance_probability>
+Running: python3 irace-brkga-runner.py 0.4 0.6    
+Cost: Usage: irace-brkga-runner.py <instance> <population_size> <num_generations> <elite_proportion> <mutant_proportion> <elite_inheritance_probability>
