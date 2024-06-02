@@ -2,10 +2,8 @@
 
 from typing import List
 import random
-
 from optframe import *
 from optframe.protocols import *
-
 
 class SolutionTSP(object):
     def __init__(self):
@@ -13,7 +11,6 @@ class SolutionTSP(object):
         self.n : int = 0
         # visited cities as a list
         self.cities : List[int] = []
-
     # MUST provide some printing mechanism
     def __str__(self):
         return f"SolutionTSP(n={self.n};cities={self.cities})"
@@ -32,7 +29,6 @@ class ProblemContextTSP(object):
         self.dist = []
         
    # Example: "3\n1 10 10\n2 20 20\n3 30 30\n"
-
     def load(self, filename: str):
         with open(filename, 'r') as f:
             lines = f.readlines()
@@ -40,13 +36,14 @@ class ProblemContextTSP(object):
             for i in range(self.n):
                id_x_y = lines[i+1].split()
                # ignore id_x_y[0]
-               self.vx.append(int(id_x_y[1]))
-               self.vy.append(int(id_x_y[2]))
+               self.vx.append(float(id_x_y[1]))  # Changed both to float to read any instance
+               self.vy.append(float(id_x_y[2]))  
             #
             self.dist = [[0 for col in range(self.n)] for row in range(self.n)]
             for i in range(self.n):
                for j in range(self.n):
                   self.dist[i][j] = round(self.euclidean(self.vx[i], self.vy[i], self.vx[j], self.vy[j]))
+
 
     def euclidean(self, x1, y1, x2, y2):
         import math
@@ -75,12 +72,6 @@ class ProblemContextTSP(object):
         sol.n = problemCtx.n
         return sol
 
-# optional tests...
-assert isinstance(SolutionTSP, XSolution)            # composition tests 
-assert isinstance(ProblemContextTSP,  XProblem)      # composition tests 
-assert isinstance(ProblemContextTSP,  XConstructive) # composition tests    
-assert isinstance(ProblemContextTSP,  XMinimize)     # composition tests
-
 from optframe.components import Move
 
 class MoveSwapClass(Move):
@@ -104,7 +95,6 @@ assert isinstance(MoveSwapClass, XMove)       # composition tests
 assert MoveSwapClass in Move.__subclasses__() # classmethod style
 
 #from optframe.components import NS
-
 class NSSwap(object):
     @staticmethod
     def randomMove(pTSP, sol: SolutionTSP) -> MoveSwapClass:
@@ -122,9 +112,6 @@ class NSSwap(object):
 
 #from optframe.components import NSSeq
 from optframe.components import NSIterator
-
-# For NSSeq, one must provide a Move Iterator
-# A Move Iterator has five actions: Init, First, Next, IsDone and Current
 
 class IteratorSwap(NSIterator):
     def __init__(self, _i: int, _j: int):
@@ -168,7 +155,7 @@ random.seed(0) # bad generator, just an example..
 
 # loads problem from filesystem
 pTSP = ProblemContextTSP()
-pTSP.load('tsp-example.txt')
+pTSP.load('instances/08_TRP-S1000-R1.tsp')
 print(pTSP)
 
 # Register Basic Components
@@ -195,49 +182,10 @@ print("c_idx=", c_idx)
 is_idx = IdInitialSearch(0)
 print("is_idx=", is_idx)
 
-# test each component
-
-fev = pTSP.engine.get_evaluator(ev_idx)
-pTSP.engine.print_component(fev)
-
-fc = pTSP.engine.get_constructive(c_idx)
-pTSP.engine.print_component(fc)
-
-solxx = pTSP.engine.fconstructive_gensolution(fc)
-print("test solution:", solxx)
-
-z1 = pTSP.engine.fevaluator_evaluate(fev, True, solxx)
-print("test evaluation:", z1)
-
-# some basic tests with moves and iterator
-move = MoveSwapClass(0,1) # swap 0 with 1
-print("move=",move)
-m1 = NSSwap.randomMove(pTSP, solxx)
-print(m1)
-
-print("begin test with iterator")
-it = NSSeqSwap.getIterator(pTSP, solxx)
-it.first(pTSP)
-while not it.isDone(pTSP):
-    m = it.current(pTSP)
-    print(m)
-    it.next(pTSP)
-print("end test with iterator")
-
-# ======== end playing ========
-
 # pack NS into a NS list
 list_idx = pTSP.engine.create_component_list(
     "[ OptFrame:NS 0 ]", "OptFrame:NS[]")
 print("list_idx=", list_idx)
-
-# print("Listing registered components:")
-# pTSP.engine.list_components("OptFrame:")
-
-# list the required parameters for OptFrame ComponentBuilder
-# print("engine will list builders for OptFrame: ")
-# print(pTSP.engine.list_builders("OptFrame:"))
-# print()
 
 # make next local search component silent (loglevel 0)
 pTSP.engine.experimental_set_parameter("COMPONENT_LOG_LEVEL", "0")
@@ -258,23 +206,17 @@ vnd = VariableNeighborhoodDescent(pTSP.engine, 0, 0)
 vnd_idx = vnd.get_id()
 print("vnd_idx=", vnd_idx)
 
-
-#####
-#pTSP.engine.list_components("OptFrame:")
-
 ilsl_pert = ILSLevelPertLPlus2(pTSP.engine, 0, 0)
 pert_idx = ilsl_pert.get_id()
 print("pert_idx=", pert_idx)
-
-# pTSP.engine.list_components("OptFrame:")
 
 # make next global search component info (loglevel 3)
 pTSP.engine.experimental_set_parameter("COMPONENT_LOG_LEVEL", "3")
 
 # build Iterated Local Search (ILS) Levels with iterMax=10 maxPert=5
-ilsl = ILSLevels(pTSP.engine, 0, 0, 1, 0, 10, 5)
+ilsl = ILSLevels(pTSP.engine, 0, 0, 1, 0, 1, 1)
 print("will start ILS for 3 seconds")
-lout = ilsl.search(3.0)
+lout = ilsl.search(3000.0)
 print("Best solution: ",   lout.best_s)
 print("Best evaluation: ", lout.best_e)
 

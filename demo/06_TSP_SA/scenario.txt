@@ -1,5 +1,19 @@
+# Scenario configuration for irace
+
+# Directory where irace will be executed
 execDir="."
-targetRunner="target-runner.sh"
-trainInstancesDir="instances"
-trainInstancesFile="instances-list.txt"
+
+# Path to the target-runner script
+targetRunner="./target-runner.sh"
+
+# Directory containing training instances
+trainInstancesDir="./instances"
+
+# File containing list of training instances
+trainInstancesFile="./instances/instances-list.txt"
+
+# Maximum number of experiments (configurations tested)
 maxExperiments=1000
+
+# Parameter file
+parameterFile="./parameters.txt"

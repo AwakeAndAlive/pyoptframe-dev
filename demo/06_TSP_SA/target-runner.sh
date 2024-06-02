@@ -1,24 +1,22 @@
 #!/bin/bash
 
 # Script path
-EXE="python3 irace-brkga-runner.py"
+EXE="python3 irace-tsp-sa-runner.py"
 
-# Parameters
+# Parameters from irace
 instance=$4
-population_size=$6
-num_generations=$8
-elite_proportion=${10}
-mutant_proportion=${12}
-elite_inheritance_probability=${14}
+initial_temp=$6
+cooling_rate=$8
+max_iterations=${10}
 
 # Temporary output
 output_file=$(mktemp)
 
 # Logging
-echo "Running: $EXE $instance $population_size $num_generations $elite_proportion $mutant_proportion $elite_inheritance_probability" >> runner.log
+echo "Running: $EXE $instance $initial_temp $cooling_rate $max_iterations" >> runner.log
 
 # Execute the algorithm
-$EXE $instance $population_size $num_generations $elite_proportion $mutant_proportion $elite_inheritance_probability > "$output_file" 2> "$output_file.err"
+$EXE $instance $initial_temp $cooling_rate $max_iterations > "$output_file" 2> "$output_file.err"
 
 # Check if not empty
 if [ -s "$output_file" ]; then

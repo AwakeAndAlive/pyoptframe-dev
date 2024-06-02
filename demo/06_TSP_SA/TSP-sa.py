@@ -66,11 +66,6 @@ class ProblemContextTSP(object):
         sol.n = problemCtx.n
         return sol
 
-assert isinstance(SolutionTSP, XSolution)
-assert isinstance(ProblemContextTSP, XProblem)
-assert isinstance(ProblemContextTSP, XConstructive)
-assert isinstance(ProblemContextTSP, XMinimize)
-
 class MoveSwapClass(Move):
     def __init__(self, _i: int = 0, _j: int = 0):
         self.i = _i
@@ -156,7 +151,7 @@ if len(sys.argv) != 2:
     sys.exit(1)
 
 # random seed
-random.seed(0)
+random.seed(time.time())
 
 # loads instance
 instance_file = sys.argv[1]
@@ -219,7 +214,7 @@ status = sa.search(3000.0)
 end_time = time.time()
 execution_time = end_time - start_time
 
-best_solution = status.best_s  # Adjusted here
+best_solution = status.best_s  
 best_evaluation = status.best_e
 
 # Calculate improvement

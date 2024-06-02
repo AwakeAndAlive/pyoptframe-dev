@@ -1,5 +1,3 @@
-# OptFrame Python Demo TSP SA - Traveling Salesman Problem Simulated Annealing
-
 from typing import List
 import random
 import time
@@ -65,11 +63,6 @@ class ProblemContextTSP(object):
         random.shuffle(sol.cities)
         sol.n = problemCtx.n
         return sol
-
-assert isinstance(SolutionTSP, XSolution)
-assert isinstance(ProblemContextTSP, XProblem)
-assert isinstance(ProblemContextTSP, XConstructive)
-assert isinstance(ProblemContextTSP, XMinimize)
 
 class MoveSwapClass(Move):
     def __init__(self, _i: int = 0, _j: int = 0):
@@ -151,15 +144,19 @@ class BasicInitialSearch(object):
         eval = self.engine.fevaluator_evaluate(self.evaluator, True, sol)
         return sol, eval
 
-if len(sys.argv) != 2:
-    print(f"Usage: {sys.argv[0]} <instance file>")
+if len(sys.argv) != 5:
+    print(f"Usage: {sys.argv[0]} <instance file> <initial_temp> <cooling_rate> <max_iterations>")
     sys.exit(1)
 
 # random seed
-random.seed(0)
+random.seed(time.time())
 
 # loads instance
 instance_file = sys.argv[1]
+initial_temp = float(sys.argv[2])
+cooling_rate = float(sys.argv[3])
+max_iterations = int(sys.argv[4])
+
 pTSP = ProblemContextTSP()
 pTSP.load(instance_file)
 print(pTSP)
@@ -205,10 +202,6 @@ print(initial_search)
 lns_idx = pTSP.engine.create_component_list("[ OptFrame:NS 0 ]", "OptFrame:NS[]")
 print("lns_idx=", lns_idx)
 
-initial_temp = 100000.0
-cooling_rate = 0.98
-max_iterations = 1000
-
 sa = BasicSimulatedAnnealing(pTSP.engine, gev_idx, IdInitialSearch(0), lns_idx, cooling_rate, max_iterations, initial_temp)
 print(sa)
 
@@ -219,20 +212,7 @@ status = sa.search(3000.0)
 end_time = time.time()
 execution_time = end_time - start_time
 
-best_solution = status.best_s  # Adjusted here
+best_solution = status.best_s  
 best_evaluation = status.best_e
 
-# Calculate improvement
-initial_cost = initial_evaluation
-final_cost = best_evaluation
-improvement = ((initial_cost - final_cost) / initial_cost) * 100
-
-print(f"Instance name: {instance_name};")
-print(f"SA variables: initialTemp = {initial_temp}; maxIterations = {max_iterations}; coolingRate = {cooling_rate};")
-print(f"Initial evaluation: {initial_cost}")
-print(f"Initial solution: {initial_solution}")
-print("Best solution found by Simulated Annealing: ")
-print(best_solution)
-print(f"Best evaluation: {final_cost}")
-print(f"Improvement: {improvement:.2f}%")
-print(f"Execution time: {execution_time} seconds")
+print(best_evaluation)
