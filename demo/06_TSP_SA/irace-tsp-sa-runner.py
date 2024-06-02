@@ -19,8 +19,9 @@ def main():
     try:
         result = subprocess.run(command, capture_output=True, text=True)
         output = result.stdout.strip().split('\n')
-        # Print only the last line of the output
-        print(output[-1])
+        # Print only the integer part of the last line of the output
+        final_result = int(float(output[-1]))
+        print(final_result)
     except Exception as e:
         print(f"Error running the command: {e}")
         sys.exit(1)

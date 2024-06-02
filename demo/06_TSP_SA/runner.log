@@ -1,58 +1,374 @@
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 111634.1309 0.9266 585
-Output file is empty, returning Inf
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 110086.3429 0.9387 765
-Output file is empty, returning Inf
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 86870.7292 0.9468 1192
-Output file is empty, returning Inf
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 177736.7563 0.9788 1707
-Output file is empty, returning Inf
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 119190.9692 0.9531 965
-Output file is empty, returning Inf
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 160880.1512 0.9093 1559
-Output file is empty, returning Inf
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 88152.8183 0.9518 698
-Output file is empty, returning Inf
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 151819.8556 0.9338 1520
-Output file is empty, returning Inf
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 155544.022 0.9285 1004
-Output file is empty, returning Inf
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 142943.3498 0.9623 1412
-Output file is empty, returning Inf
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 68020.5575 0.9938 1152
-Output file is empty, returning Inf
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 58076.9886 0.9686 1569
-Output file is empty, returning Inf
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 162095.0203 0.9152 530
-Output file is empty, returning Inf
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 92102.07 0.9054 995
-Output file is empty, returning Inf
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 158585.8493 0.9601 905
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 181308 0.9317 104
-Cost: 156074.0
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 163562 0.9502 602
-Cost: 95850.0
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 128779 0.9187 141
-Cost: 151781.0
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 145969 0.9092 985
-Cost: 110766.0
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 160242 0.938 378
-Cost: 120658.0
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 178600 0.9213 177
-Cost: 135939.0
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 114091 0.9679 197
-Cost: 122453.0
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 174693 0.9969 256
-Cost: 87327.0
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 61994 0.9556 445
-Cost: 108785.0
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 96938 0.9252 392
-Cost: 125013.0
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 121808 0.9915 125
-Cost: 106300.0
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 133321 0.9513 309
-Cost: 117692.0
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 190929 0.9027 321
-Cost: 136392.0
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 51806 0.9787 920
-Cost: 82856.0
-Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 136343 0.9699 722
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 158367 0.9051 474
+Cost: 68787
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 146288 0.976 803
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 187215 0.9188 214
+Cost: 33859
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 64722 0.962 692
+Cost: 24035
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 119585 0.9364 297
+Cost: 31214
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 155016 0.9806 523
+Cost: 21140
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 181619 0.9417 150
+Cost: 35467
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 126545 0.9578 358
+Cost: 27228
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 63146 0.9646 779
+Cost: 23965
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 158834 0.9362 361
+Cost: 29244
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 98404 0.9739 377
+Cost: 23499
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 105226 0.9312 918
+Cost: 25399
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 115257 0.9423 777
+Cost: 27572
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 98375 0.9692 724
+Cost: 21895
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 180214 0.9027 945
+Cost: 24461
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 102978 0.9422 224
+Cost: 31729
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 63730 0.9245 535
+Cost: 29062
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 183729 0.9842 250
+Cost: 23729
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 160928 0.968 431
+Cost: 23757
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 88139 0.9357 941
+Cost: 22701
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 139401 0.988 967
+Cost: 17763
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 113606 0.9388 652
+Cost: 26427
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 118549 0.9237 273
+Cost: 31261
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 75517 0.9581 153
+Cost: 31776
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 138634 0.958 126
+Cost: 31649
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 108781 0.9245 170
+Cost: 34286
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 147158 0.9657 592
+Cost: 22326
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 172719 0.9129 425
+Cost: 31250
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/05_TRP-S500-R1.tsp 155086 0.9552 655
+Cost: 25338
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 187215 0.9188 214
+Cost: 81558
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 64722 0.962 692
+Cost: 51741
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 119585 0.9364 297
+Cost: 70192
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 155016 0.9806 523
+Cost: 44092
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 181619 0.9417 150
+Cost: 76321
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 126545 0.9578 358
+Cost: 59772
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 63146 0.9646 779
+Cost: 48655
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 158834 0.9362 361
+Cost: 64719
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 98404 0.9739 377
+Cost: 53984
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 105226 0.9312 918
+Cost: 59651
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 115257 0.9423 777
+Cost: 55770
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 98375 0.9692 724
+Cost: 48554
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 180214 0.9027 945
+Cost: 58973
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 102978 0.9422 224
+Cost: 71559
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 63730 0.9245 535
+Cost: 62113
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 183729 0.9842 250
+Cost: 52994
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 160928 0.968 431
+Cost: 56382
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 88139 0.9357 941
+Cost: 54950
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 139401 0.988 967
+Cost: 37366
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 113606 0.9388 652
+Cost: 57321
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 118549 0.9237 273
+Cost: 70245
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 75517 0.9581 153
+Cost: 73163
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 138634 0.958 126
+Cost: 75826
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 108781 0.9245 170
+Cost: 83648
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 147158 0.9657 592
+Cost: 49733
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 172719 0.9129 425
+Cost: 69360
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 155086 0.9552 655
+Cost: 55222
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 187215 0.9188 214
+Cost: 49012
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 64722 0.962 692
+Cost: 31559
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 119585 0.9364 297
+Cost: 42764
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 155016 0.9806 523
+Cost: 27948
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 181619 0.9417 150
+Cost: 49902
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 126545 0.9578 358
+Cost: 36694
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 63146 0.9646 779
+Cost: 30599
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 158834 0.9362 361
+Cost: 40758
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 98404 0.9739 377
+Cost: 33590
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 105226 0.9312 918
+Cost: 34074
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 115257 0.9423 777
+Cost: 33501
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 98375 0.9692 724
+Cost: 30074
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 180214 0.9027 945
+Cost: 38169
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 102978 0.9422 224
+Cost: 44790
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 63730 0.9245 535
+Cost: 39802
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 183729 0.9842 250
+Cost: 32461
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 160928 0.968 431
+Cost: 31705
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 88139 0.9357 941
+Cost: 34033
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 139401 0.988 967
+Cost: 23756
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 113606 0.9388 652
+Cost: 37409
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 118549 0.9237 273
+Cost: 46309
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 75517 0.9581 153
+Cost: 45860
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 138634 0.958 126
+Cost: 49135
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 108781 0.9245 170
+Cost: 51766
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 147158 0.9657 592
+Cost: 31918
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 172719 0.9129 425
+Cost: 44642
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/07_rat784.tsp 155086 0.9552 655
+Cost: 32783
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 187215 0.9188 214
+Cost: 10059
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 64722 0.962 692
+Cost: 8540
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 119585 0.9364 297
+Cost: 9187
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 155016 0.9806 523
+Cost: 8137
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 181619 0.9417 150
+Cost: 10427
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 126545 0.9578 358
+Cost: 9845
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 63146 0.9646 779
+Cost: 9002
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 158834 0.9362 361
+Cost: 9436
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 98404 0.9739 377
+Cost: 8955
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 105226 0.9312 918
+Cost: 8885
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 115257 0.9423 777
+Cost: 8859
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 98375 0.9692 724
+Cost: 8701
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 180214 0.9027 945
+Cost: 8607
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 102978 0.9422 224
+Cost: 9245
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 63730 0.9245 535
+Cost: 9091
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 183729 0.9842 250
+Cost: 9334
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 160928 0.968 431
+Cost: 9658
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 88139 0.9357 941
+Cost: 9204
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 139401 0.988 967
+Cost: 8042
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 113606 0.9388 652
+Cost: 8831
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 118549 0.9237 273
+Cost: 8979
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 75517 0.9581 153
+Cost: 9820
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 138634 0.958 126
+Cost: 8927
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 108781 0.9245 170
+Cost: 9324
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 147158 0.9657 592
+Cost: 8361
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 172719 0.9129 425
+Cost: 9515
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/01_berlin52.tsp 155086 0.9552 655
+Cost: 8500
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 187215 0.9188 214
+Cost: 143809
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 64722 0.962 692
+Cost: 98381
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 119585 0.9364 297
+Cost: 127632
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 155016 0.9806 523
+Cost: 100104
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 181619 0.9417 150
+Cost: 141504
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 126545 0.9578 358
+Cost: 113179
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 63146 0.9646 779
+Cost: 95814
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 158834 0.9362 361
+Cost: 121483
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 98404 0.9739 377
+Cost: 108435
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 105226 0.9312 918
+Cost: 107565
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 115257 0.9423 777
+Cost: 104630
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 98375 0.9692 724
+Cost: 93097
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 180214 0.9027 945
+Cost: 114864
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 102978 0.9422 224
+Cost: 130933
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 63730 0.9245 535
+Cost: 109730
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 183729 0.9842 250
+Cost: 101777
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 160928 0.968 431
+Cost: 107169
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 88139 0.9357 941
+Cost: 98247
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 139401 0.988 967
+Cost: 90952
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 113606 0.9388 652
+Cost: 114485
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 118549 0.9237 273
+Cost: 127212
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 75517 0.9581 153
+Cost: 123581
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 138634 0.958 126
+Cost: 136271
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 108781 0.9245 170
+Cost: 136152
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 147158 0.9657 592
+Cost: 100429
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 172719 0.9129 425
+Cost: 119224
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/04_lin318.tsp 155086 0.9552 655
+Cost: 99205
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 139401 0.988 967
+Cost: 182153
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 155016 0.9806 523
+Cost: 227676
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 98375 0.9692 724
+Cost: 263842
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 124855 0.9679 364
+Cost: 304517
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 136203 0.9686 915
+Cost: 199107
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 158167 0.9745 594
+Cost: 235476
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 145936 0.9786 786
+Cost: 244590
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 69385 0.9701 908
+Cost: 231076
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 97061 0.9564 816
+Cost: 246986
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 173866 0.9643 794
+Cost: 270711
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 88491 0.9701 690
+Cost: 232166
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 155688 0.9768 768
+Cost: 247164
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 126176 0.9567 824
+Cost: 234838
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 117648 0.9702 271
+Cost: 263185
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 153140 0.9637 653
+Cost: 253960
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 161187 0.976 733
+Cost: 221333
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 99406 0.9379 681
+Cost: 275828
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 123702 0.9563 703
+Cost: 227831
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 153961 0.9794 535
+Cost: 255646
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 132831 0.9645 556
+Cost: 256912
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 94144 0.9677 989
+Cost: 243355
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 185465 0.9882 212
+Cost: 276009
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 192203 0.9426 356
+Cost: 297671
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 185142 0.9869 471
+Cost: 226298
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 151436 0.9653 494
+Cost: 266745
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 173570 0.9884 454
+Cost: 197647
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 80146 0.9888 712
+Cost: 215826
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/03_pr226.tsp 114445 0.9782 936
+Cost: 224792
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 124855 0.9679 364
+Cost: 55344
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 136203 0.9686 915
+Cost: 46591
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 158167 0.9745 594
+Cost: 47292
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 145936 0.9786 786
+Cost: 46563
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 69385 0.9701 908
+Cost: 44779
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 97061 0.9564 816
+Cost: 52389
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 173866 0.9643 794
+Cost: 49180
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 88491 0.9701 690
+Cost: 47978
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 155688 0.9768 768
+Cost: 44015
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 126176 0.9567 824
+Cost: 52283
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 117648 0.9702 271
+Cost: 58361
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 153140 0.9637 653
+Cost: 50793
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 161187 0.976 733
+Cost: 42291
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 99406 0.9379 681
+Cost: 57982
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 123702 0.9563 703
+Cost: 49964
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 153961 0.9794 535
+Cost: 50891
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 132831 0.9645 556
+Cost: 53854
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 94144 0.9677 989
+Cost: 46102
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 185465 0.9882 212
+Cost: 49758
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 192203 0.9426 356
+Cost: 65580
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 185142 0.9869 471
+Cost: 44924
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 151436 0.9653 494
+Cost: 52703
+Running: python3 irace-tsp-sa-runner.py /home/augusto01/projects/pyoptframe-dev/demo/06_TSP_SA/instances/08_TRP-S1000-R1.tsp 173570 0.9884 454

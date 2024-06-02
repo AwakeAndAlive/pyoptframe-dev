@@ -19,6 +19,6 @@ def convert_to_dict(input_file, output_file):
         outfile.write("}\n")
 
 if __name__ == "__main__":
-    input_file = "instances/08_TRP-S1000-R1.tsp" 
+    input_file = "instances/01_berlin52.tsp" 
     output_file = "output.txt"  
     convert_to_dict(input_file, output_file)

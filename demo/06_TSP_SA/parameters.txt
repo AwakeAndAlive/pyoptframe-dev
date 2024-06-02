@@ -1,4 +1,4 @@
 # name                 switch                    type    values
 initial_temp          "--initial_temp "          i       (5e4, 2e5)
-cooling_rate          "--cooling_rate "          r       (0.9, 0.999)
+cooling_rate          "--cooling_rate "          r       (0.9, 0.99)
 max_iterations        "--max_iterations "        i       (100, 1000)
