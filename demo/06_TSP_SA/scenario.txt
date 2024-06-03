@@ -13,7 +13,7 @@ trainInstancesDir="./instances"
 trainInstancesFile="./instances/instances-list.txt"
 
 # Maximum number of experiments (configurations tested)
-maxExperiments=500
+maxExperiments=1000
 
 # Parameter file
 parameterFile="./parameters.txt"
