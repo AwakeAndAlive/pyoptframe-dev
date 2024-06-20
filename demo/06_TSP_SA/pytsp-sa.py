@@ -31,19 +31,44 @@ def generate_initial_solution(n):
     return path
 
 # Generate with 2-opt swap
-def generate_neighbor(path):
+def generate_neighbor_2opt(path):
     new_path = path[:]
     i = random.randint(0, len(new_path) - 2)
     j = random.randint(i + 1, len(new_path) - 1)
     new_path[i:j + 1] = reversed(new_path[i:j + 1])
     return new_path
 
+# Generate with 3-opt swap
+def generate_neighbor_3opt(path):
+    new_path = path[:]
+    a = random.randint(0, len(new_path) - 3)
+    b = random.randint(a + 1, len(new_path) - 2)
+    c = random.randint(b + 1, len(new_path) - 1)
+    
+    segment1 = new_path[:a+1]
+    segment2 = new_path[a+1:b+1]
+    segment3 = new_path[b+1:c+1]
+    segment4 = new_path[c+1:]
+    
+    options = [
+        segment1 + segment2 + segment3 + segment4,
+        segment1 + segment3 + segment2 + segment4,
+        segment1 + segment2 + segment3[::-1] + segment4,
+        segment1 + segment3[::-1] + segment2 + segment4,
+        segment1 + segment2[::-1] + segment3 + segment4,
+        segment1 + segment2[::-1] + segment3[::-1] + segment4,
+        segment1 + segment3 + segment2[::-1] + segment4,
+        segment1 + segment3[::-1] + segment2[::-1] + segment4,
+    ]
+    
+    return random.choice(options)
+
 # Geometric cooling function
 def geometric_cooling(temp, alpha):
     return temp * alpha
 
-# SA function for TSP
-def simulated_annealing_tsp(coordinates, initial_temp, final_temp, max_iterations, alpha, SAmax):
+# SA function for TSP with 2-opt and 3-opt neighborhood
+def simulated_annealing_tsp(coordinates, initial_temp, final_temp, max_iterations, alpha):
     random.seed(time.time())
     
     n = len(coordinates)
@@ -53,19 +78,15 @@ def simulated_annealing_tsp(coordinates, initial_temp, final_temp, max_iteration
     best_solution = current_solution
     best_cost = current_cost
 
-    print(f"Initial solution: {current_solution}")
-    print(f"Initial cost: {current_cost}")
-    
     temp = initial_temp
     
-    # Determine the number of cooling steps
-    cooling_steps = max_iterations // SAmax
-    if cooling_steps == 0:
-        cooling_steps = 1
-    
-    for step in range(cooling_steps):
-        for _ in range(SAmax):
-            new_solution = generate_neighbor(current_solution)
+    for iteration in range(max_iterations):
+        for _ in range(1000):  # Increase the neighborhood exploration significantly
+            if random.random() < 0.5:
+                new_solution = generate_neighbor_2opt(current_solution)
+            else:
+                new_solution = generate_neighbor_3opt(current_solution)
+            
             new_cost = calculate_total_cost(coordinates, new_solution)
             
             # Acceptance criteria
@@ -77,9 +98,6 @@ def simulated_annealing_tsp(coordinates, initial_temp, final_temp, max_iteration
             if new_cost < best_cost:
                 best_solution = new_solution
                 best_cost = new_cost
-
-        # Print status
-        print(f"Step {step + 1}/{cooling_steps}, Temp: {temp:.2f}, Best Cost: {best_cost:.2f}")
 
         # Apply geometric cooling
         temp = geometric_cooling(temp, alpha)
@@ -110,10 +128,10 @@ def read_instance(instance_file_path):
 
     return coordinates
 
-# Main for irace
+# Main
 def main():
-    if len(sys.argv) < 7:
-        print("Usage: irace-pytsp-sa.py <instance file> <initial_temp> <alpha> <final_temp> <max_iterations> <SAmax>")
+    if len(sys.argv) < 6:
+        print("Usage: pytsp-sa.py <instance file> <initial_temp> <alpha> <final_temp> <max_iterations>")
         sys.exit(1)
 
     instance_file = sys.argv[1]
@@ -121,7 +139,6 @@ def main():
     alpha = float(sys.argv[3])
     final_temp = float(sys.argv[4])
     max_iterations = int(sys.argv[5])
-    SAmax = int(sys.argv[6])
 
     coordinates = read_instance(instance_file)
     if coordinates is None:
@@ -129,14 +146,18 @@ def main():
 
     start_time = time.time()
 
-    best_solution = simulated_annealing_tsp(coordinates, initial_temp, final_temp, max_iterations, alpha, SAmax)
+    best_solution = simulated_annealing_tsp(coordinates, initial_temp, final_temp, max_iterations, alpha)
 
     end_time = time.time()
     execution_time = end_time - start_time
 
-    print(f"Best solution path: {best_solution.path}")
-    print(f"Best solution cost: {best_solution.cost}")
-    print(f"Execution time: {execution_time} seconds")
+    initial_solution = generate_initial_solution(len(coordinates))
+    initial_cost = calculate_total_cost(coordinates, initial_solution)
+    percent_diff = ((initial_cost - best_solution.cost) / initial_cost) * 100.0
+
+    # Format output as CSV
+    result_csv = f"{instance_file};{initial_cost:.2f};{best_solution.cost:.2f};{percent_diff:.2f};{execution_time:.2f};{best_solution.path}"
+    print(result_csv)
 
 if __name__ == "__main__":
     main()
